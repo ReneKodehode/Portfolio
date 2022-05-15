@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <GlobalStyled />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL + "/Portfolio"}>
         <NavBar>
           <Logo to="/">R</Logo>
           <NavLink to="/">Home</NavLink>
