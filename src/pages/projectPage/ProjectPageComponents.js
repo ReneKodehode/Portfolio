@@ -1,5 +1,5 @@
 import React from "react";
 
-export const projectImage = ({ source }) => {
-  return <img src={source}></img>;
+export const styledA = ({ source }) => {
+  return <a href={source} target="_blank" rel="noopener noreferrer">Github link</a>;
 };

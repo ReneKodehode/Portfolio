@@ -25,10 +25,25 @@ export const ResumeSectionDiv = styled.div`
 
 export const ResumeStyledTitle = styled.h1`
   text-align: center;
+  margin-top: 56px;
 `;
 
-export const ResumeStyledUnderTitle = styled.h2``;
+export const ResumeStyledChapter = styled.h2``;
 
-export const ResumeStyledText = styled.p`
+export const ResumeStyledUnderTitle = styled.h3`
+  text-align: center;
+`;
+
+export const ResumeStyledDescription = styled.p`
+  text-align: center;
+  width: 50vw;
+`;
+export const ResumeContentSectionDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+`;
+
+export const ResumeStyledDate = styled.p`
   text-align: center;
 `;
