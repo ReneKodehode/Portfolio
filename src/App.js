@@ -11,9 +11,9 @@ function App() {
     <div>
       <GlobalStyled />
       {/* <Router> when not deployed */}
-      <Router basename={process.env.PUBLIC_URL + "/portfolio"}>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar>
-          <Logo to="/Portfolio">R</Logo>
+          <Logo to="/">R</Logo>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/project-page">Projects</NavLink>
           <NavLink to="/resume-page">Resume</NavLink>
