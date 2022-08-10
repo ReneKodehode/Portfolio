@@ -30,16 +30,16 @@ export const StyledName = styled.h1`
   right: 0;
   font-size: 2rem;
   margin-right: 0.5rem;
-  text-shadow: 0px 0px 3px rgba(255,255,255,0.75);
+  text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.75);
 `;
 
 export const HeroImage = styled.div`
   z-index: -1;
   position: relative;
-  background-position: center;
-  background-attachment: fixed;
   height: 300px;
   background: url(${image});
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   background-position: top bottom;
   background-repeat: no-repeat;
