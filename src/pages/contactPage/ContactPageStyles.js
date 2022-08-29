@@ -50,7 +50,8 @@ export const StyledContactRingDiv = styled.div`
 export const StyledContactMainDiv = styled.div`
   display: flex;
   flex-direction: row;
-  width: 50vw;
+  margin-top: 2rem;
+  width: 100%;
   justify-content: center;
 `;
 
