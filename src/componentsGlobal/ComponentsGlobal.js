@@ -12,6 +12,12 @@ export const NavBar = styled.div`
   position: absolute;
 `;
 
+export const invisibleLinkA = styled.a`
+  display: none;
+  color: black;
+  text-decoration: none;
+`;
+
 export const NavLink = styled(Link)`
   color: black;
   margin-right: 1rem;

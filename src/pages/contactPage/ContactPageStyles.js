@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {} from "./ContactPageComponents";
+import { emailLogo, githubLogo, linkedInLogo } from "./ContactPageComponents";
 import profileImage from "../../img/ProfileImage.png";
 
 export const ContactContentDiv = styled.div`
@@ -7,7 +7,20 @@ export const ContactContentDiv = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  
+`;
+
+export const GitHubLogo = styled(githubLogo)`
+  width: 50px;
+`;
+
+export const EmailLogo = styled(emailLogo)`
+  width: 50px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+`;
+
+export const LinkedInLogo = styled(linkedInLogo)`
+  width: 50px;
 `;
 
 export const ContactStyledTitle = styled.h1`
@@ -22,8 +35,8 @@ export const ContactStyledText = styled.p`
 `;
 
 export const StyledContactRingDiv = styled.div`
-margin-top: 56px;
-margin-bottom: 2rem;
+  margin-top: 56px;
+  margin-bottom: 2rem;
   width: 192px;
   height: 200px;
   border-left: 4px solid black;

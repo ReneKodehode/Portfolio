@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {styledA} from "./ProjectPageComponents";
+import { styledA } from "./ProjectPageComponents";
 
 export const ProjectContentDiv = styled.div`
   display: flex;
@@ -40,7 +40,6 @@ export const ProjectStyledTitle = styled.h1`
 
 export const ProjectStyledLink = styled(styledA)`
   text-align: left;
-  
 `;
 
 export const ProjectStyledUnderTitle = styled.h2`
